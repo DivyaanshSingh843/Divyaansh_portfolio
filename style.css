@@ -1,0 +1,68 @@
+/* General Styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+}
+
+h2 {
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+/* Hero Section */
+#hero {
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  color: white;
+}
+
+#hero h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+/* Skills */
+#skills .col-md-2,
+#skills .col-4 {
+  background-color: #f8f9fa;
+  border: 1px solid #dee2e6;
+  margin: 5px;
+  padding: 10px;
+  text-align: center;
+  font-weight: 500;
+  border-radius: 5px;
+}
+
+/* Projects */
+.card-title {
+  font-weight: bold;
+}
+
+.card:hover {
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  transform: scale(1.02);
+  transition: all 0.3s ease-in-out;
+}
+
+/* Contact Section */
+#contact a {
+  text-decoration: underline;
+}
+
+#contact p {
+  margin-bottom: 0.5rem;
+}
+
+/* Footer */
+footer {
+  font-size: 0.9rem;
+}
+
+/* Responsive Text Sizes */
+@media (max-width: 576px) {
+  #hero h1 {
+    font-size: 2.2rem;
+  }
+  #hero p {
+    font-size: 1rem;
+  }
+}
