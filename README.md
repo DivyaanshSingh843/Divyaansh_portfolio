@@ -29,8 +29,6 @@ All further **customization, content updates, design changes, and feature enhanc
 - Projects showcase
 - Contact form layout
 - Footer section
-- Chocolate color theme
-- Mobile-first responsive design
 
 ---
 
