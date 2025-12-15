@@ -5,7 +5,6 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
-/* ===== BODY ===== */
 body {
   background-color: #2b1b17;
   color: #f5ebe0;
@@ -13,22 +12,35 @@ body {
 
 /* ===== NAVBAR ===== */
 .navbar {
+  position: fixed;
+  z-index: 1000;
   height: 70px;
   width: 100%;
   background-color: #1a0f0a;
-
   display: flex;
   align-items: center;
   justify-content: space-between;
-
   padding: 0 30px;
 }
 
 /* LOGO */
 .logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 150px;
   font-size: 22px;
   font-weight: bold;
   color: #d2a679;
+}
+
+/* logo image */
+.logo img{
+  align-items: center;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  margin-left: 5px;
 }
 
 /* MENU BUTTON */
@@ -133,7 +145,7 @@ body {
   font-size: 16px;
   line-height: 1.6;
   margin-bottom: 30px;
-  color: #f5ebe0;
+  color: #d2a679;
 }
 
 /* Buttons */
