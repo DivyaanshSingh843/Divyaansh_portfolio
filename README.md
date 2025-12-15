@@ -40,7 +40,5 @@ All further **customization, content updates, design changes, and feature enhanc
 - CSS3 (Flexbox, Grid, Media Queries)  
 - JavaScript (DOM manipulation & interactions)
 
----
 
-## 📁 Project Structure
 
