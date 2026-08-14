@@ -839,15 +839,24 @@ body {
 }
 
 .project-banner {
-  height: 160px;
-  background: linear-gradient(135deg, rgba(251, 191, 36, 0.12), rgba(249, 115, 22, 0.2));
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 3rem;
-  color: var(--accent-amber);
-  border-bottom: 1px solid var(--border-color);
+  height: 200px;
+  width: 100%;
   position: relative;
+  overflow: hidden;
+  border-bottom: 1px solid var(--border-color);
+  background: var(--bg-secondary);
+}
+
+.project-banner-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  transition: transform 0.5s ease;
+}
+
+.project-card:hover .project-banner-img {
+  transform: scale(1.06);
 }
 
 .project-badge-type {
