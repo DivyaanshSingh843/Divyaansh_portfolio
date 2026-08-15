@@ -8,12 +8,12 @@ export const projectsData = [
     github: 'https://github.com/DivyaanshSingh843/ai-fastapi-microservice'
   },
   {
-    title: 'Django REST Framework Backend API',
+    title: 'Nexus Inventory DRF API',
     type: 'Backend Web API',
     image: '/assets/project_django_api.png',
-    description: 'Scalable web backend application built with Django and Django REST Framework, featuring ORM database optimizations, authentication, and structured APIs.',
+    description: 'Scalable inventory management backend application built with Django and Django REST Framework, featuring ORM database optimizations, JWT authentication, and structured REST APIs.',
     tags: ['Django', 'Django REST Framework', 'Python', 'PostgreSQL', 'JWT Auth'],
-    github: 'https://github.com/DivyaanshSingh843'
+    github: 'https://github.com/DivyaanshSingh843/nexus-inventory-drf-api'
   },
   {
     title: 'ERPNext Enterprise Module Customization',
