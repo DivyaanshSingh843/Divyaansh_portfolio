@@ -16,12 +16,12 @@ export const projectsData = [
     github: 'https://github.com/DivyaanshSingh843/nexus-inventory-drf-api'
   },
   {
-    title: 'ERPNext Enterprise Module Customization',
+    title: 'Frappe Enterprise Procurement App',
     type: 'ERP Solutions',
     image: '/assets/project_erpnext.png',
-    description: 'Custom business logic, automated workflows, and tailored DocTypes developed within the ERPNext ecosystem and Frappe framework for enterprise operations.',
-    tags: ['ERPNext', 'Frappe Framework', 'Python', 'MariaDB / MySQL', 'Workflows'],
-    github: 'https://github.com/DivyaanshSingh843'
+    description: 'Custom procurement business logic, automated purchase workflows, and tailored DocTypes developed within the ERPNext ecosystem and Frappe framework.',
+    tags: ['ERPNext', 'Frappe Framework', 'Python', 'MariaDB / MySQL', 'Procurement'],
+    github: 'https://github.com/DivyaanshSingh843/frappe-enterprise-procurement-app'
   },
   {
     title: 'Azure DevOps & Production Server Deployment',
