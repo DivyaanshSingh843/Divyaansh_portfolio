@@ -39,7 +39,7 @@ const Navbar = () => {
       <div className="container">
         <a href="#home" className="logo" id="navLogo">
           <div className="logo-img-wrapper">
-            <img src="/assets/image3.png" alt="Divyansh Singh Logo" />
+            <img src="./assets/image3.png" alt="Divyansh Singh Logo" />
           </div>
           <div className="logo-text">Divyansh<span>.</span></div>
         </a>
@@ -66,7 +66,7 @@ const Navbar = () => {
               </li>
             ))}
             <li>
-              <a href="/assets/Divyansh_Singh_Resume.pdf" download="Divyansh_Singh_Resume.pdf" className="nav-cta" onClick={() => setMobileMenuOpen(false)}>
+              <a href="./assets/Divyansh_Singh_Resume.pdf" download="Divyansh_Singh_Resume.pdf" className="nav-cta" onClick={() => setMobileMenuOpen(false)}>
                 <Download size={16} style={{ display: 'inline', marginRight: '6px' }} /> CV
               </a>
             </li>

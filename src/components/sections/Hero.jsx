@@ -63,7 +63,7 @@ const Hero = () => {
             </p>
 
             <div className="hero-actions">
-              <a href="/assets/Divyansh_Singh_Resume.pdf" download="Divyansh_Singh_Resume.pdf" className="btn btn-primary">
+              <a href="./assets/Divyansh_Singh_Resume.pdf" download="Divyansh_Singh_Resume.pdf" className="btn btn-primary">
                 <Download size={18} /> Download Resume
               </a>
               <a href="#projects" className="btn btn-secondary">
@@ -90,7 +90,7 @@ const Hero = () => {
           <div className="hero-avatar-container">
             <div className="avatar-glow"></div>
             <div className="avatar-wrapper">
-              <img src="/assets/image1.png" alt="Divyansh Singh Profile Picture" />
+              <img src="./assets/image1.png" alt="Divyansh Singh Profile Picture" />
             </div>
             
             <div className="floating-badge badge-top-right">
