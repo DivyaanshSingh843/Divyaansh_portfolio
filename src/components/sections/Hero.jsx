@@ -63,7 +63,7 @@ const Hero = () => {
             </p>
 
             <div className="hero-actions">
-              <a href="./assets/Divyansh_Singh_Resume.pdf" download="Divyansh_Singh_Resume.pdf" className="btn btn-primary">
+              <a href="./assets/Resume_Divyansh.pdf" download="Resume_Divyansh.pdf" className="btn btn-primary">
                 <Download size={18} /> Download Resume
               </a>
               <a href="#projects" className="btn btn-secondary">

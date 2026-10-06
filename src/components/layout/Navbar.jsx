@@ -66,7 +66,7 @@ const Navbar = () => {
               </li>
             ))}
             <li>
-              <a href="./assets/Divyansh_Singh_Resume.pdf" download="Divyansh_Singh_Resume.pdf" className="nav-cta" onClick={() => setMobileMenuOpen(false)}>
+              <a href="./assets/Resume_Divyansh.pdf" download="Resume_Divyansh.pdf" className="nav-cta" onClick={() => setMobileMenuOpen(false)}>
                 <Download size={16} style={{ display: 'inline', marginRight: '6px' }} /> CV
               </a>
             </li>
